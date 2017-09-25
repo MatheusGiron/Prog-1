@@ -46,7 +46,7 @@ int main()
     while(again==1);
 
     if (again==2)
-        printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link\n\n");
+        printf("\nObrigado, ate a proxima! Para ver o meu codigo entre no link https://github.com/MatheusGiron/Prog-1/blob/master/Calcular%20numero%20primo%20PROG1.c\n\n");
 
     system("pause");
     return 0;

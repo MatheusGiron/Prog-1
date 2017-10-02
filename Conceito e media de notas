@@ -1,0 +1,51 @@
+/****************************************************
+* Trab 3 : Criar 1 exercício, resolver outro e corrigir - PARTE 2
+* Nome: Matheus Giron de Castro
+* Matrícula: 0050015251
+* Professor: Alex Salgado
+*****************************************************/
+
+#include <stdio.h>
+
+int main()
+
+{
+  int i;
+  int cont=0;
+  float nota=0;
+  float media=0;
+
+  printf("Calcule a media de 4 notas e diga qual o conceito alcancado!\n\n");
+
+   for (i=1;i<=4;i++){
+   printf("Digite a nota %d: ",i);
+   scanf("%f", &nota);
+   media+=nota;
+   cont++;
+
+   }
+
+printf("\nA media foi: %.1f\n", media/cont);
+
+if (media/cont>=8 && media/cont<=10) {
+    printf("\nConceito A\n\n");
+}
+
+else if (media/cont>=7 && media/cont<8) {
+    printf("\nConceito B\n\n");
+}
+
+else if (media/cont>=6 && media/cont<7) {
+    printf("\nConceito C\n\n");
+}
+
+else if (media/cont>=5 && media/cont<6) {
+    printf("\nConceito D\n\n");
+}
+
+else if (media/cont>0 && media/cont<5)
+    printf("\nConceito E\n\n");
+
+    system ("pause");
+    return 0;
+}

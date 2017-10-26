@@ -1,1 +1,1 @@
-# Prog-1
+Programação 1 - C

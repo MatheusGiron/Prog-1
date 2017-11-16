@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main ()
+
+{ int num,a[30],i=0;
+
+ printf("Digite um numero que deseja transformar em binario: ");
+ scanf("%d", &num);
+
+ while (num>=1){
+
+a[i]=num%2;
+ 	num=(num/2);
+i++;}
+
+ while(i>0) {printf("%d", a[i-1]);i--;}
+
+ return 0;}
